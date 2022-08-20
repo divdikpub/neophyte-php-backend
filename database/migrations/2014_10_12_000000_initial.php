@@ -22,7 +22,6 @@ return new class extends Migration
             $table->string('nim')->unique();
             $table->string('gender');
             $table->date('date_of_birth');
-            $table->foreign()
             $table->rememberToken();
             $table->timestamps();
         });
